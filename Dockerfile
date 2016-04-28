@@ -1,9 +1,9 @@
-FROM alpine:3.2
+FROM alpine
 MAINTAINER Vladimir Krivosheev <develar@gmail.com>
 
 ENV JAVA_VERSION_MAJOR 8
-ENV JAVA_VERSION_MINOR 72
-ENV JAVA_VERSION_BUILD 15
+ENV JAVA_VERSION_MINOR 92
+ENV JAVA_VERSION_BUILD 14
 ENV JAVA_PACKAGE server-jre
 
 # about nsswitch.conf - see https://registry.hub.docker.com/u/frolvlad/alpine-oraclejdk8/dockerfile/
